@@ -1,0 +1,32 @@
+# Python caches and build artefacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+build/
+dist/
+wheels/
+
+# Local environments and editor files
+.venv/
+.env
+.env.*
+.DS_Store
+.idea/
+.vscode/
+
+# Training data and generated outputs
+data/train/
+data/val/
+data/test/
+outputs/
+figures/generated/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+
+# Notebook state
+.ipynb_checkpoints/
